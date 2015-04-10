@@ -1,0 +1,276 @@
+/*--Global Colors
+
+black: #13140F;
+lime: #D4FF00;
+blue: #00D6DD;
+light-green(almost white): #E4FFE6;
+green-grey: #68776C;
+white: #eaeaea;
+alt-grey: #333;
+progressbar grey: #999;
+
+--*/
+
+html {
+  box-sizing: border-box;
+  background:#13140F; 
+-webkit-font-smoothing: antialiased;    
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: 'Muli', sans-serif;
+    background:#13140F;
+    background-image: url('../img/dark_wood.png');
+    color: #eaeaea;
+    padding: 0;
+}
+hr {
+    width: 50%;
+    margin: 1em auto;
+}
+
+/* link styles */
+a{
+    color: #eaeaea;
+}
+a:hover{
+    color:#D4FF00;
+}
+
+/* heading styles */
+
+h2.title{
+  margin: 6em 0 6em 6em;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  color: #eaeaea;
+}
+.underline{
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  font-size: 3.25em;
+  border-left: 5px solid;
+  padding: 0.15em;
+  display: inline-block;
+  width: 1em;
+  margin-right: -20px;        
+  text-align:center;
+  color: #D4FF00;
+  
+}
+
+/*-- Header Styles --*/
+
+#main-header{
+    padding: 6em 0 0;
+}
+#main-header:after{
+    display:table;
+    content:'';
+    clear:both;
+}
+.heading-items{
+  width: 77%;
+  max-width: 61.25em;        
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+#main-header h1{
+    width: 6em;
+    font-size: 1.5em;
+    float: left;
+}
+p.intro {
+    width:77%;
+    max-width: 61.25em;
+    margin: 8em auto;
+    line-height: 1.5;
+    clear: both;
+}
+p.intro > strong {
+    font-weight: bold;
+    color:#00D6DD;
+}
+ul.social-icons li {
+    display: inline;
+    margin-right: 1em;
+    font-size: 1.25em;
+}
+ul.social-icons {
+    text-align: right;
+    float:right;
+}
+
+/*-- header nav styles -- */
+
+ul.nav{
+    text-align: center;
+}
+ul.nav li{
+    display: inline;
+    margin-right: 5em;
+    font-size: 1.25em;
+}
+ul.nav li a{
+    color: #eaeaea;
+    text-decoration: none;
+}
+ul.nav li a:hover{
+    color: #D4FF00;
+}
+
+/*-- project section styles --*/
+.proj-content{
+     width:77%;
+    max-width: 61.25em;
+    margin: 2em auto;
+}
+ul.proj {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li.proj-item{
+    background:#333 ;
+    color: #eaeaea;
+    padding: 1em 0 1em 0;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+li.proj-item:hover{
+    cursor: pointer;
+    
+}
+li.proj-item:nth-child(odd){
+    background: #68776C;
+}
+    
+.proj-item h2{
+    text-align: center;
+    font-size: 2em;
+    background: rgba(0,0,0,0.9);
+}
+.proj-item p {
+    
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.9);
+    padding: 1em;
+}
+.proj-item img{
+  max-width: 100%;
+  margin: 1em auto;
+  display: block;
+  border: 5px solid;
+  padding:;
+  border-radius: 5px;
+}
+
+.proj-item .skills{
+  display: block;
+  color: #00D6DD;
+  margin-top: 1.25em;
+  font-weight: bold;
+}
+
+.proj-item .proj-link{
+    display: block;
+  margin-top: 1.5em;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.proj-item .proj-link a{
+    color:#D4FF00;
+}
+.proj-item .proj-link a:hover{
+    color:#E4FFE6;
+}
+/* skills section styles */
+
+#projects,#skills{
+    margin-bottom: 5em;
+}
+.skills-content{
+    width:77%;
+    max-width: 61.25em;
+    margin: 2em auto;
+}
+#skills > h2.title > .underline {
+    margin-right: -15px;
+}
+.skills-item{
+  width: 100%;
+}
+.skills-item:after{
+  display: table;
+  content: '';
+  clear: both;
+  
+}
+.skills-item i{
+  float: left;
+  margin-right: 0.25em;
+  margin-left: 5px;
+  font-size: 2em;
+  color: #00D6DD;
+}
+.skills-item h3{
+  padding-top: 7px;
+  font-family: sans-serif;
+}
+div.ui-progressbar{
+  border: none;
+  border-radius: 10px;
+}
+div.ui-progressbar > div {
+  background: #999;
+  border-radius: 9px;       
+}
+div.ui-progressbar > div.ui-progressbar-value{
+     margin: 0; 
+}
+
+/* contact styles section */
+
+.contact-content{
+    width:77%;
+    max-width: 61.25em;
+    margin: 2em auto;
+    padding-bottom: 10em;
+}
+.contact-content > h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.contact-content  a {
+    text-decoration: none;
+}
+
+#contact > h2.title > .underline {
+    margin-right: -6px;
+}
+
+
+/* footer styles */
+
+#footer{
+    background:rgba(51,51,51, 0.7);
+    padding: 0.5em 0;
+}
+.footer-content{
+     width:77%;
+    max-width: 61.25em;
+    margin: 2em auto 1em;
+}
+.footer-content h3 {
+    text-align: center;
+}
