@@ -169,10 +169,7 @@ li.proj-item:nth-child(odd){
     background: rgba(0,0,0,0.9);
 }
 .proj-item p {
-    
-    width: 80%;
     margin: 0 auto;
-    background: rgba(0,0,0,0.9);
     padding: 1em;
 }
 .proj-item img{
@@ -203,6 +200,19 @@ li.proj-item:nth-child(odd){
 }
 .proj-item .proj-link a:hover{
     color:#E4FFE6;
+}
+
+.proj-inner-item{
+  padding: 1em;
+  width: 80%;
+  margin: 0px auto;
+  background: rgba(0, 0, 0, 0.9);
+
+}
+.proj-inner-item > a {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
 }
 /* skills section styles */
 
