@@ -81,8 +81,10 @@ h2.title{
 }
 
 #main-header h1{
-    width: 6em;
-    font-size: 1.5em;
+    width: 8em;
+    font-size: 2em;
+    font-family: 'Rock Salt', sans-serif;
+    margin: 0;
     float: left;
 }
 p.intro {
@@ -106,7 +108,7 @@ p.intro strong > a:hover {
 ul.social-icons li {
     display: inline;
     margin-right: 1em;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 ul.social-icons {
     text-align: right;
@@ -300,7 +302,7 @@ div.ui-progressbar > div.ui-progressbar-value{
 
 /* ---- Media Queries ---- */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
  
     #main-header h1 {
         
