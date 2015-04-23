@@ -22,9 +22,8 @@ $('.progressbar-rwd').progressbar({
     value: 50
 });
     
-//hiding project imgs
-$('.proj-inner-item').hide();
-//on click display project img
+
+//on click display or hide project img
 $('li.proj-item').on('click',function(){
   $(this).find('.proj-inner-item').slideToggle();
   
